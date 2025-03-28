@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Pymatuning Adventure - Your premier RV campground & resort destination">
+    <title>Pymatuning Adventure - RV Campground & Resort</title>
+    
+    <!-- CSS Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-poppins">
+    <!-- Loading Spinner -->
+    <div class="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="container mx-auto px-4 flex justify-between items-center">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1 class="text-white text-2xl font-bold">Pymatuning Adventure</h1>
+                    </a>
+                </div>
+                <button class="mobile-menu-btn md:hidden">
+                    <i class="fas fa-bars text-white text-2xl"></i>
+                </button>
+                <div class="nav-links hidden md:flex">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="free-camping.html">Free Camping</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section h-screen flex items-center justify-center text-white relative">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="container mx-auto px-4 text-center relative z-10">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">
+                    Welcome to Pymatuning Adventure
+                </h1>
+                <p class="text-xl md:text-2xl mb-8" data-aos="fade-up" data-aos-delay="100">
+                    Experience the perfect blend of nature and comfort
+                </p>
+                <a href="free-camping.html" class="btn btn-primary text-lg" data-aos="fade-up" data-aos-delay="200">
+                    Book Your Stay
+                </a>
+            </div>
+        </section>
+
+        <!-- Welcome Section -->
+        <section class="py-16 bg-light">
+            <div class="container mx-auto px-4">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">
+                        Your Gateway to Adventure
+                    </h2>
+                    <p class="text-lg mb-8" data-aos="fade-up" data-aos-delay="100">
+                        Nestled in the heart of Williamsfield, Ohio, Pymatuning Adventure offers 
+                        a perfect escape for nature lovers and outdoor enthusiasts. Our resort 
+                        combines the serenity of lakeside camping with modern amenities for an 
+                        unforgettable experience.
+                    </p>
+                    <div class="video-container rounded-xl overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/Xa8HaeUA6hc" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">
+                    Resort Features
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="card p-6" data-aos="fade-up">
+                        <i class="fas fa-campground text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-4">Premium Campsites</h3>
+                        <p>
+                            Choose from our selection of RV sites, tent sites, and cozy cabins, 
+                            all equipped with modern amenities.
+                        </p>
+                    </div>
+                    <div class="card p-6" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-swimming-pool text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-4">Recreation</h3>
+                        <p>
+                            Enjoy our swimming pool, arcade games, billiards, nature center, 
+                            and weekly planned activities.
+                        </p>
+                    </div>
+                    <div class="card p-6" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-fish text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-4">Lake Access</h3>
+                        <p>
+                            Direct access to Pymatuning Lake with 5 boat launches and 70 miles 
+                            of shoreline for fishing and water activities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-primary text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">
+                    Ready for Your Adventure?
+                </h2>
+                <p class="text-xl mb-8" data-aos="fade-up" data-aos-delay="100">
+                    Book your stay now and experience the perfect outdoor getaway
+                </p>
+                <a href="free-camping.html" class="btn btn-primary bg-white text-primary hover:bg-gray-100" data-aos="fade-up" data-aos-delay="200">
+                    Start Planning
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p>7652 S Lake Rd</p>
+                    <p>Williamsfield, OH 44093</p>
+                    <p>Phone: (855) 332-9541</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-secondary">Home</a></li>
+                        <li><a href="about.html" class="hover:text-secondary">About</a></li>
+                        <li><a href="contact.html" class="hover:text-secondary">Contact</a></li>
+                        <li><a href="privacy-policy.html" class="hover:text-secondary">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-secondary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="hover:text-secondary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-secondary"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8 pt-8 border-t border-gray-700">
+                <p>&copy; 2024 Pymatuning Adventure. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Pymatuning Adventure - Get in touch with our RV campground & resort">
+    <title>Contact Us - Pymatuning Adventure</title>
+    
+    <!-- CSS Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-poppins">
+    <!-- Loading Spinner -->
+    <div class="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="container mx-auto px-4 flex justify-between items-center">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1 class="text-white text-2xl font-bold">Pymatuning Adventure</h1>
+                    </a>
+                </div>
+                <button class="mobile-menu-btn md:hidden">
+                    <i class="fas fa-bars text-white text-2xl"></i>
+                </button>
+                <div class="nav-links hidden md:flex">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="free-camping.html">Free Camping</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <!-- Contact Hero -->
+        <section class="bg-primary text-white py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6" data-aos="fade-up">Contact Us</h1>
+                <p class="text-xl" data-aos="fade-up" data-aos-delay="100">
+                    We're here to help you plan your perfect camping experience
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Grid -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Get in touch</h2>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Location Card -->
+                    <div class="card p-6" data-aos="fade-up">
+                        <h3 class="text-xl font-bold mb-4">Location</h3>
+                        <div class="map-container rounded-lg overflow-hidden mb-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1493.149767579515!2d-80.5340578611161!3d41.54111130040146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883234babdc6dc0d%3A0xa0859caeb2495471!2sPymatuning%20Adventure!5e0!3m2!1sen!2sus!4v1743198382642!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <a href="https://maps.google.com/?q=7652 S Lake Rd, Williamsfield, OH 44093" 
+                           target="_blank" 
+                           class="text-secondary hover:underline">
+                            7652 S Lake Rd<br>
+                            Williamsfield, OH 44093
+                        </a>
+                    </div>
+
+                    <!-- Phone Card -->
+                    <div class="card p-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-xl font-bold mb-4">Phone</h3>
+                        <p class="mb-2">
+                            General: <a href="tel:855-332-9541" class="text-secondary hover:underline">(855) 332-9541</a>
+                        </p>
+                        <p>
+                            Reservations: <a href="tel:855-432-8457" class="text-secondary hover:underline">(855) 432-8457</a>
+                        </p>
+                    </div>
+
+                    <!-- Email Card -->
+                    <div class="card p-6" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="text-xl font-bold mb-4">Email Us</h3>
+                        <a href="mailto:membersupport@travelresorts.com" 
+                           class="text-secondary hover:underline">
+                            membersupport@travelresorts.com
+                        </a>
+                    </div>
+
+                    <!-- Social Media Card -->
+                    <div class="card p-6" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                        <div class="flex flex-col space-y-4">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f mr-2"></i> Facebook
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter mr-2"></i> Twitter
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram mr-2"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-primary text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-4" data-aos="fade-up">Need a vacation?</h2>
+                <p class="text-xl mb-8" data-aos="fade-up" data-aos-delay="100">Book a free tour!</p>
+                <a href="free-camping.html" class="btn btn-primary bg-white text-primary hover:bg-gray-100" data-aos="fade-up" data-aos-delay="200">
+                    Schedule Your Tour
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p>7652 S Lake Rd</p>
+                    <p>Williamsfield, OH 44093</p>
+                    <p>Phone: (855) 332-9541</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-secondary">Home</a></li>
+                        <li><a href="about.html" class="hover:text-secondary">About</a></li>
+                        <li><a href="contact.html" class="hover:text-secondary">Contact</a></li>
+                        <li><a href="privacy-policy.html" class="hover:text-secondary">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-secondary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="hover:text-secondary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-secondary"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8 pt-8 border-t border-gray-700">
+                <p>&copy; 2024 Pymatuning Adventure. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
